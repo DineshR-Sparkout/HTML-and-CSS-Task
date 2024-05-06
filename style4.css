@@ -1,94 +1,3 @@
-.fa-bell-o{
-    color:purple;
-    position: relative;
-    top: 35px;
-    width: 20px;
-    height: 15px;
-    border: 1px rgb(255, 255, 255) solid;
-    border-radius: 100%;
-    padding: 10px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-}
-.icon-para{
-    font-size: 9pt;
-    position: relative;
-    color: rgb(51, 43, 106);
-}
-.fa-chain-broken{
-    color:purple;
-    position: relative;
-    top: 35px;
-    width: 20px;
-    height: 15px;
-    border: 1px rgb(255, 255, 255) solid;
-    border-radius: 100%;
-    padding: 10px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-}
-.fa-backward{
-    color:purple;
-    position: relative;
-    top: 35px;
-    width: 20px;
-    height: 15px;
-    border: 1px rgb(255, 255, 255) solid;
-    border-radius: 100%;
-    padding: 10px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-
-}
-.person-images{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    margin-top: 80px;
-    margin-left: 50px;
-    position: relative;
-    top: 50px;
-}
-.girl-image{
-    width: 200px;
-    height: 300px;
-    margin-bottom:0px;
-    border-radius: 20px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    place-items: stretch;
-}
-.boy-image{
-    width: 200px;
-    height: 250px;
-    margin: 20px;
-    border-radius: 20px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    place-self:center end;
-
-}
-.child-image{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    width: 130px;
-    height: 110px;
-    margin: 0px 10px;
-    border-radius: 20px;
-    place-self: start end;
-    position: relative;
-    bottom: 30px;
-    left: 10px;
-
-}
-.icons-images{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0%;
-}
 .black-headphone{
     width: 400px;
     height: 450px;
@@ -100,3 +9,37 @@
 hr{
     opacity: 0.3;
 }
+.easy-content{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    margin-top: 130px;
+    max-width: 420px;
+}
+.content-heading{
+    font-family: "poppins-bold",sans-serif;
+    font-size: 30pt;
+    color:rgb(29, 24, 60);
+}
+.para-head{
+    color: rgb(51, 43, 106);
+    font-size: 12pt;
+    margin-bottom: 40px;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.icon-content{
+    font-size: 9pt;
+    word-spacing: 2px;
+    font-weight: bold;
+    color:rgb(29, 24, 60);
+
+}
+.seperate-content{
+    margin-right: 15px;
+}
+
