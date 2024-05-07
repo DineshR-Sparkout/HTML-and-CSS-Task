@@ -12,24 +12,25 @@
     <link rel="stylesheet" href="style6.css">
     <link rel="stylesheet" href="style7.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="navigation">
         <h1 class="product">Product</h1>
         <ul class="nav">
-            <li class="nav-tabs"><a href="#home">Home</a></li>
-            <li class="nav-tabs"><a href="#Features">Features</a></li>
-            <li class="nav-tabs"><a href="#Color">Color</a></li>
-            <li class="nav-tabs"><a href="#Overview">Overview</a></li>
-            <li class="nav-tabs"><a href="#Design">Design</a></li>
-            <li class="nav-tabs"><a href="#MoreProducts">More Products</a></li>
-            <li class="order-tab"><a href="#Order Now">ORDER NOW</a></li>
+            <li class="nav-tabs"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-tabs"><a class="nav-link" href="#Features">Features</a></li>
+            <li class="nav-tabs"><a class="nav-link" href="#Color">Color</a></li>
+            <li class="nav-tabs"><a class="nav-link" href="#Overview">Overview</a></li>
+            <li class="nav-tabs"><a class="nav-link" href="#Design">Design</a></li>
+            <li class="nav-tabs"><a class="nav-link" href="#MoreProducts">More Products</a></li>
+            <li class="order-tab"><a class="nav-link" href="#Order Now">ORDER NOW</a></li>
         </ul>
     </nav>
     <div class="container">
         <section class="offer">
-            <img class="headphone-image" alt="headphone-discount" src="images/headphones.png">
+            <img class="headphone-image" alt="headphone-discount" src="images/123.png">
             <p class="discount">-50%</p>
         </section>
         <section class="headphone">
@@ -37,7 +38,10 @@
             <h2 class="name">Headphone</h2>
             <p class="s7">Aspire s7</p>
             <p class="para">it can help curb food cravings, fight aging and depression,reduce your risk of heart disease.</p>
-            <p class="cart" style="font-size: 10pt;font-weight: bold"><i class="fa fa-shopping-bag" style="padding-right: 10px; border-right: 1px orange solid;" aria-hidden="true"></i><a class="atoc" href="#addtocart">ADD TO CART</a></p>
+            <div class="cart">
+                <i class="fa fa-shopping-bag bag-icon" aria-hidden="true"></i>
+                <a class="atoc" href="#addtocart">ADD TO CART</a>
+            </div>
         </section>
     </div>
     <section class="box-container">
@@ -74,9 +78,10 @@
         <div class="dot dot2"></div>
         <div class="dot dot3"></div>
     </section>
+    <div class="wavy">
     <section class="icons-images">
         <section class="day">
-            <h2 class="icon-heading">Make the most of your day easy </h2>
+            <h2 class="icon-heading">Make the most of Your day easy </h2>
             <div class="icon-details">
                 <i class="fa fa-bell-o" style="margin-right: 10px;" aria-hidden="true"></i>
                 <div class="details">
@@ -107,7 +112,7 @@
     </section>
     <section class="easy-content">
         <div class="image-black">
-            <img class="black-headphone" src="images/d63f1503-195d-4f12-8c25-4b1587435c04.__CR0,0,300,300_PT0_SX300_V1___.jpg">
+            <img class="black-headphone" alt="man-with-headphone" src="images/b0e6534a7db108a2075bfd80abd0aea2.jpg">
         </div>
         <div class="content">
             <h2 class="content-heading">Make the most of your day easy </h2>
@@ -115,19 +120,20 @@
         
         <div class="main-div">
             <div class="seperate-content">
-                <i class="fa fa-commenting" style="font-size: 22pt;color: purple;" aria-hidden="true"></i>
+                <i class="fa fa-commenting" style="font-size: 22pt;color:blueviolet;" aria-hidden="true"></i>
                 <p class="icon-content">It can help curb food cravings, fight aging and depression</p>    
             </div>
             <div class="seperate-content">
-                <i class="fa fa-fire-extinguisher" style="font-size: 22pt;color:purple" aria-hidden="true"></i>
+                <i class="fa fa-fire-extinguisher" style="font-size: 22pt;color:blueviolet" aria-hidden="true"></i>
                 <p class="icon-content">It can help curb food cravings, fight aging and depression</p>    
             </div>
         </div>
         </div>
     </section>
+</div>
     <section class="video">
     <video controls>
-        <source src="videos/3205401-hd_1920_1080_25fps.mp4">
+        <source src="videos/3196427-uhd_3840_2160_25fps.mp4">
     </video>
     <p class="video-para">There is more inside this significant changes in ambient</p>
     <div class="play-button"></div>
@@ -140,45 +146,48 @@
         <section class="about-headphone">
             <div class="image-specification">
             <img class="orange-background"  src="images/OIP (7).jpeg" alt="bakcground">
-            <img class="attach-headphones" src="images/headphones.png" alt="headphones">
+            <img class="attach-headphones" src="images/123.png" alt="headphones">
             </div>
+            <div class="table-side">
                 <table class="table">
                     <tr class="table-row">
-                        <td class="table-column">
-                            <p style="color:rgb(51, 43, 106);">Colors</p>
+                        <td class="table-column column1">
+                            <p class="table-content">Colors</p>
                         </td>
-                        <td class="table-column">
-                            <p style="opacity: 0.4;text-align: right;">3 Colors</p>
+                        <td class="table-column column2">
+                            <p class="table-invalid">3 Colors</p>
                         </td>
                         </tr>
                         <tr class="table-row">
-                            <td class="table-column">
-                                <p style="color:rgb(51, 43, 106);">Size</p>
+                            <td class="table-column column1">
+                                <p class="table-content">Size</p>
                             </td>
-                            <td class="table-column">
-                                <p style="opacity: 0.4;text-align: right;">One Size(S & L Included)</p>
-                            </td>
-                        </tr>
-                        <tr class="table-row">
-                            <td class="table-column">
-                                <p style="color:rgb(51, 43, 106);">Edition</p>
-                            </td>
-                            <td class="table-column">
-                                <p style="opacity: 0.4;text-align: right;">Special Edition</p>
+                            <td class="table-column column2">
+                                <p class="table-invalid">One Size(S & L Included)</p>
                             </td>
                         </tr>
                         <tr class="table-row">
-                            <td class="table-column">
-                                <p style="color:rgb(51, 43, 106);">Battery</p>
+                            <td class="table-column column1">
+                                <p class="table-content">Edition</p>
                             </td>
-                            <td class="table-column">
-                                <p style="opacity: 0.4;text-align: right;">4+ Battery Health</p>
+                            <td class="table-column column2">
+                                <p class="table-invalid">Special Edition</p>
+                            </td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-column column1">
+                                <p class="table-content">Battery</p>
+                            </td>
+                            <td class="table-column column2">
+                                <p class="table-invalid">4+ Battery Health</p>
                             </td>
                         </tr>
                 </table>
+                </div>
         </section>
     </div>
-    <section>
+    <section class="set-background">
+        <section>
         <table class="icon-table">
             <tr class="icon-row">
                 <td class="icon-column">
@@ -232,7 +241,7 @@
         <p class="review-para">Significant changes in ambient temperature may negatively impact skin temperature tracking. The clock face is not intended.</p>
         </div>
         <div class="comment">
-            <img src="images/OIP (8).jpeg" alt="reviewer" style="width: 300px;height: 400px;border-radius: 20px;" alt="reviewer">
+            <img class="comment-image" src="images/OIP (8).jpeg" alt="reviewer" style="width: 300px;height: 400px;border-radius: 20px;" alt="reviewer">
             <!-- <img src="images/user-original.png" style="width: 300px;height: 400px;border-radius: 20px;" alt="reviewer"> -->
             <div class="comment-quote">
             <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -241,6 +250,7 @@
             <p class="reviewer-profession">Actor</p>
             </div>
         </div>
+    </section>
     </section>
     <section class="product-show">
     <section class="product-list">
@@ -360,10 +370,62 @@
         </div>
         <div class="mail-address">
             <form action="">
-                <input type="mail" id="mail" class="mail" placeholder="Enter your mail address" autofocus>
+                <input type="mail" id="mail" class="mail" placeholder="Enter your mail address" required autocomplete="on">
                 <input class="subscribe" type="submit" value="Subscribe">
             </form>
         </div>
     </section>
+    <section class="preorder-container">
+        <div class="preorder-content">
+        <h3 class="preorder-head">Preorder</h3>
+        <p class="preorder-para">Your Headphone</p>
+        <div class="cart">
+            <i class="fa fa-shopping-bag bag-icon" aria-hidden="true"></i>
+            <a class="atoc" href="#addtocart">ADD TO CART</a>
+        </div>
+        </div>
+        <div class="preorder-headphone">
+            <img src="images/123.png" class="preorder-image" alt="headphone">
+        </div>
+    </section>
+    <footer class="landing-page">
+        <div class="landing-content">
+            <h3 class="landing-head">Product</h3>
+            <p class="landing-para">Landing Page Builder is a hosted platform powered by the Brizy builder aiming to connect you with potential clients</p>
+        </div>
+        <div class="company-container">
+        <div class="company-content">
+            <h5 class="company-head">Company</h5>
+            <p class="company-para"><a href="#aboutus">About Us</a></p>
+            <p class="company-para"><a href="#ourteam">Our Team</a></p>
+            <p class="company-para"><a href="#products">Products</a></p>
+            <p class="company-para"><a href="#contact">Contact</a></p>
+        </div>
+        <div class="company-content">
+            <h5 class="company-head">Product</h5>
+            <p class="company-para"><a href="#feature">Feature</a></p>
+            <p class="company-para"><a href="#pricing">Pricing</a></p>
+            <p class="company-para"><a href="#credit">Credit</a></p>
+            <p class="company-para"><a href="#faq">FAQ</a></p>
+        </div>
+        <div class="company-content">
+            <h5 class="company-head">Download</h5>
+            <p class="company-para"><a href="#ios">iOS</a></p>
+            <p class="company-para"><a href="#android">Android</a></p>
+            <p class="company-para"><a href="#microsoft">Microsoft</a></p>
+            <p class="company-para"><a href="#desktop">Desktop</a></p>
+        </div>
+        <div class="company-content">
+            <h5 class="company-head">Support</h5>
+            <p class="company-para"><a href="#privacy">Privacy</a></p>
+            <p class="company-para"><a href="#help">Help</a></p>
+            <p class="company-para"><a href="#terms">Terms</a></p>
+            <p class="company-para"><a href="#faq">FAQ</a></p>
+        </div>
+        </div>
+    </footer>
+    <hr class="horizontal-rule">
+    <p class="copyright">2020 Copyright Product Landing Template Designed by Love. All Rights Reserved</p>
+
 </body>
 </html>
