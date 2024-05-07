@@ -34,16 +34,16 @@ body{
     display: inline;
     list-style-type: none;
     margin-right: 10px;
-    font-size: 10pt;
+    font-size: 9.5pt;
     padding: 10px 10px;
     border-radius: 30px;
-
+    font-weight:500;
 }
-a:hover {
+.nav-link:hover {
     color:orange;
     cursor: pointer;
 }
-a{
+.nav-link{
     text-decoration: none;
     color: white;
 }
@@ -51,17 +51,18 @@ a{
     display: inline-block;
     font-size: 18pt;
     margin: 30px;
+    font-family: "Radio Canada Big",;
 }
 .order-tab{
     display: inline;
     list-style-type: none;
     margin-right: 10px;
-    font-size: 10pt;
-    font-weight: bolder;
+    font-size: 9pt;
+    font-weight: bold;
     background:linear-gradient(to right,orangered,orange,orange,orange);
     padding: 10px 20px;
     border-radius: 50px;
-
+    width: 130px;
 }
 
 .order-tab:hover{
@@ -75,15 +76,20 @@ a{
     justify-content: center;
     align-items: flex-start;
     color: white;
+    margin-top: 50px;
+    width: 90%;
 }
 .headphone-image{
-    position: relative;
-    right: 100px;
-    width: 800px;
-    height: 450px;
+    width: 300px;
+    height: 430px;
     margin-top: 50px;
     transform: rotate(25deg);
-    margin-right: 0;
+    margin-right: 20px;
+    z-index: -1;
+    margin-left: 160px;
+}
+.atoc{
+    padding-left: 10px;
 }
 
 .discount{
@@ -92,30 +98,30 @@ a{
     font-size: larger;
     font-weight: bolder;
     color:white;
-    background-color:rgb(14, 12, 29);
+    background-color:rgb(20, 17, 43);
     padding: 30px 20px;
     border-radius: 100%;
-    top:150px;
-    left: 470px;
+    left: 520px;
+    top: 180px;
 }
 .headphone{
     width: 30%;
     height: 500px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    position: relative;
-    right: 200px;
-
+    margin-top: 70px;
+}
+.offer{
+    width: 600px;
 }
 .hr{
-    font-size: 16pt; 
+    font-size: 15pt; 
     margin-bottom: 0%;
 }
 .off{
     border: 1px solid white;
     padding: 4px 8px;
-    font-size:11pt;
+    font-size:10pt;
     margin: 10px;
     border-radius: 5px;
 
@@ -125,34 +131,41 @@ a{
     font-size: 48pt;
     font-weight: bolder;
     margin-bottom: 0;
-    font-family: "poppins-bold",sans-serif;
+    font-family: "Radio Canada Big", sans-serif;
 }
 .s7{
     font-size: 34pt;
-    margin-top: 15px;
-    position: relative;
-    bottom: 10px;
-    margin-bottom: 0%;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .para{
-    font-size: 12pt;
-    margin-top: 0%;
+    font-size: 11pt;
     text-align:left;
     line-height: 1.5;
+    margin-bottom: 40px;
 
 }
 .cart{
-    background:linear-gradient(to right,orangered,orange,orange,orange);
+    background:linear-gradient(to right,orangered,orange);
     width: fit-content;
     padding: 13px 25px;
     border-radius: 50px;
     box-sizing: border-box;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.bag-icon{
+    padding-right: 10px;
+    border-right: 1px orange solid;
+}
+.cart a{
+    text-decoration: none;
+    color: white;
 }
 .cart:hover{
-    background:orange;
     cursor: pointer;
+    background: orange;
+    z-index: 1;
 
-}
-.cart:hover .atoc{
-    color:white;
 }

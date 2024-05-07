@@ -7,62 +7,74 @@
     width: 350px;
     margin-left: 300px;
     margin-top: 80px;
-    position: relative;
-    right: 30px;
 }
 .icon-heading{
-    font-family: "poppins-bold",sans-serif;
-    font-size: 30pt;
-    color:rgb(29, 24, 60);
+    font-family: "Radio Canada Big", sans-serif;
+    color:rgb(20, 17, 43);
+    font-size: 31pt;
     word-spacing: 0.1em;
+    margin-bottom: 30px;
 }
 .icon-details{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.icon-details:hover{
+    border:1px rgb(135, 127, 188) solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .details{
     margin-left: 10px;
-    color:rgb(29, 24, 60);
+    color:rgb(20, 17, 43);
     font-size: 10pt;
+    margin-bottom: 40px;
 }
 .fa-bell-o{
-    color:purple;
-    position: relative;
-    top: 35px;
+    color:blueviolet;
+    /* position: relative;
+    top: 35px; */
     width: 20px;
     height: 15px;
     border: 1px rgb(255, 255, 255) solid;
+    background-color: white;
     border-radius: 100%;
-    padding: 10px;
+    padding: 15px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .icon-para{
-    font-size: 10pt;
+    font-size: 9pt;
     position: relative;
-    color: rgb(51, 43, 106);
+    color: rgb(135, 127, 188);
 }
 .fa-chain-broken{
-    color:purple;
-    position: relative;
-    top: 35px;
+    color:blueviolet;
+    /* position: relative;
+    top: 35px; */
     width: 20px;
     height: 15px;
     border: 1px rgb(255, 255, 255) solid;
     border-radius: 100%;
-    padding: 10px;
+    background-color:white;
+    padding: 15px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .fa-backward{
-    color:purple;
-    position: relative;
-    top: 35px;
+    color:blueviolet;
+    /* position: relative;
+    top: 35px; */
     width: 20px;
     height: 15px;
     border: 1px rgb(255, 255, 255) solid;
     border-radius: 100%;
-    padding: 10px;
+    padding: 15px;
+    background-color: white;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 
 }
@@ -71,9 +83,9 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     margin-top: 80px;
-    margin-left: 50px;
-    position: relative;
-    top: 50px;
+    margin-left: 130px;
+    /* position: relative;
+    top: 50px; */
 }
 .girl-image{
     width: 200px;
@@ -85,6 +97,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
     place-items: stretch;
+    position:static;
 }
 .boy-image{
     width: 200px;
@@ -96,7 +109,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
     place-self:center end;
-
+    position:static;
 }
 .child-image{
     grid-column-start: 1;
@@ -105,17 +118,25 @@
     grid-row-end: 3;
     width: 130px;
     height: 120px;
-    margin: 0px 10px;
+    margin:0;
     border-radius: 20px;
     place-self: start end;
-    position: relative;
+    position:static
+    /* position: relative;
     bottom: 10px;
-    left: 10px;
+    left: 10px; */
 
 }
 .icons-images{
     display: flex;
     flex-direction: row;
     margin-top: 0%;
+    background-image:url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
-

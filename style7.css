@@ -1,0 +1,140 @@
+.subscribe-container{
+    margin-top: 200px;
+    text-align: center;
+}
+.subscribe-head{
+    font-size: 32pt;
+    font-weight: bolder;
+    color:rgb(20, 17, 43);
+}
+.subscribe-para{
+    font-size: 14pt;
+    color:rgb(135, 127, 188);
+}
+.mail-address{
+    margin-top: 50px;
+}
+.mail{
+    outline: none;
+    border:none;
+    border-bottom: 1px black solid;
+    padding:20px 20px 10px 5px;
+    width: 17%;
+}
+.mail::placeholder{
+    font-size: 11pt;
+    color:rgb(135, 127, 188);
+}
+.subscribe{
+    background:linear-gradient(to right, orangered, orange);
+    border:none;
+    color: #ffffff;
+    padding: 12px 25px ;
+    box-sizing: border-box;
+    width: 120px;
+    height: fit-content;
+    margin-left: 50px;
+    font-size: 11pt;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+}
+.subscribe-container{
+    margin-bottom: 250px;
+}
+.subscribe:hover{
+    background: orange;
+    cursor: pointer;
+}
+.preorder-head{
+    font-size: 34pt;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.preorder-para{
+    font-size: 22pt;
+    margin-bottom: 30px;
+}
+.preorder-content{
+    color:white;
+    margin-left: 50px;
+}
+.preorder-container{
+    width: 58%;
+    height: 350px;
+    background: linear-gradient(to right, blue, blueviolet);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content:flex-start;
+}
+.preorder-image{
+    width: 260px;
+    height: 350px;
+    transform: rotate(20deg);
+}
+.preorder-headphone{
+    margin-left: 200px;
+}
+
+.landing-page{
+    width: 58%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.landing-content{
+    width: 240px;
+}
+.landing-para{
+    margin-top:15px ;
+    font-size: 9.5pt;
+    color:rgb(135, 127, 188);
+    line-height: 2;
+}
+.landing-head{
+    font-size: 18pt;
+    color: blueviolet;
+    font-family: "Radio Canada Big", sans-serif;
+    font-weight: bolder;
+}
+.company-content{
+    margin-left: 80px;
+}
+.company-para{
+    margin-top: 15px;
+    font-size: 9pt;
+}
+.company-head{
+    color:rgb(20, 17, 43);
+}
+.company-para a{
+    color:rgb(135, 127, 188);
+    text-decoration: none;
+}
+.company-para a:hover{
+    color:rgb(20, 17, 43);
+    text-decoration: none;
+
+}
+.company-container{
+    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+.horizontal-rule{
+    width: 58%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.copyright{
+    font-size: 8.5pt;
+    color:rgb(135, 127, 188);
+    width: 35%;
+    margin: auto;
+    margin-bottom: 30px;
+}
