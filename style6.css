@@ -148,11 +148,13 @@
     margin-top: 15px;
 }
 .blog-desc-head{
-    font-size: 14pt;
+    font-size: 15pt;
+    font-family: "Radio Canada Big", sans-serif;
     font-weight: bolder;
     line-height: 1.2;
     color:rgb(20, 17, 43);
     margin-bottom: 10px;
+    word-spacing: 1.5;
 }
 .blog-desc-para{
     font-size: 9pt;
