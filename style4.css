@@ -49,6 +49,15 @@ hr{
 }
 .seperate-content{
     margin-right: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding: 2px;
+
+}
+.seperate-content:hover{
+    border: 1px rgb(135, 127, 188) solid;
+    border-radius: 5px;
+    background-color: lightgray;
 }
 video{
     width: 100%;
